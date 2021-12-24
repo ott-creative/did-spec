@@ -5,9 +5,10 @@
 | @context | https://w3c.github.io/vc-data-model/#contexts |
 | id | VC identifier URI, machine readable description | https://w3c.github.io/vc-data-model/#identifiers |
 | type | ["VerifiableCredential", ...], type of VC | https://w3c.github.io/vc-data-model/#types |
-| credentialSubject | specify this VC is for which subject, must contains "id" property | https://w3c.github.io/vc-data-model/#credential-subject |
+| credentialSubject | VC claims | https://w3c.github.io/vc-data-model/#credential-subject |
 | issuer | VC issuer, a DISN DID | https://w3c.github.io/vc-data-model/#issuer |
 | issuanceDate | VC issue timestamp | https://w3c.github.io/vc-data-model/#issuance-date |
+| expirationDate | expire timestamp (optional) | https://w3c.github.io/vc-data-model/#expiration |
 | proof | VC signature | https://w3c.github.io/vc-data-model/#proofs-signatures |  
 
 #### Proof Properties

@@ -16,6 +16,7 @@
 | type | proof type, Ed25519Signature2018 | https://w3c-ccg.github.io/lds-ed25519-2020/#ed25519-signature-2020 |
 | proofPurpose | purpose of VC | |
 | verificationMethod | pub key URI of verifying signature ||
+| created | timestamp | |
 | jws | signature value (jws format) || 
 
 
